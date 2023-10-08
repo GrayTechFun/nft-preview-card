@@ -1,129 +1,129 @@
 * {
-  box-sizing: border-box;
-  font-family: "Outfit", sans-serif;
-  margin: 0;
+	box-sizing: border-box;
+	font-family: 'Outfit', sans-serif;
+	margin: 0;
 }
 
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-  background-color: #0d192c;
+	background-color: #0d192c;
 }
 
 article {
-  width: 32.7em;
-  margin: 7em auto;
-  background-color: #15263f;
-  border-radius: 1.5rem;
-  position: relative;
+	width: 32.7em;
+	margin: 13em auto;
+	background-color: #15263f;
+	border-radius: 1.5rem;
+	position: relative;
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .equilibrium {
-  padding: 2.4em;
-  border-radius: 3rem;
+	padding: 2.4em;
+	border-radius: 3rem;
 }
 
 main {
-  margin: 0 2.4em 1.6em;
-  border-bottom: 1px solid #233148;
+	margin: 0 2.4em 1.6em;
+	border-bottom: 1px solid #233148;
 }
 
 h1 {
-  font-size: 2.2rem;
-  font-weight: 600;
-  color: white;
+	font-size: 2.2rem;
+	font-weight: 600;
+	color: white;
 }
 
 .paragraph {
-  color: #8bacd9;
-  margin: 1.2em 0;
-  font-size: 1.8rem;
-  font-weight: 300;
+	color: #8bacd9;
+	margin: 1.2em 0;
+	font-size: 1.8rem;
+	font-weight: 300;
 }
 
 .details {
-  display: flex;
-  margin: 0 0 1.6em 0;
-  justify-content: space-between;
+	display: flex;
+	margin: 0 0 1.6em 0;
+	justify-content: space-between;
 }
 
 .ethereum {
-  display: flex;
-  align-items: center;
-  gap: 0.6em;
-  color: #00fff8;
-  font-size: 1.5rem;
-  font-weight: 600;
+	display: flex;
+	align-items: center;
+	gap: 0.6em;
+	color: #00fff8;
+	font-size: 1.5rem;
+	font-weight: 600;
 }
 
 .time {
-  display: flex;
-  align-items: center;
-  gap: 0.6em;
-  color: #8bacd9;
-  font-size: 1.5rem;
-  font-weight: 300;
+	display: flex;
+	align-items: center;
+	gap: 0.6em;
+	color: #8bacd9;
+	font-size: 1.5rem;
+	font-weight: 300;
 }
 
 footer {
-  display: flex;
-  gap: 1.6em;
-  align-items: center;
-  margin: 0 2.4em;
-  padding-bottom: 2.4em;
+	display: flex;
+	gap: 1.6em;
+	align-items: center;
+	margin: 0 2.4em;
+	padding-bottom: 2.4em;
 }
 
 .name {
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: #8bacd9;
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #8bacd9;
 }
 
 .name span {
-  color: white;
+	color: white;
 }
 
 .avatar {
-  width: 3.3rem;
-  border-radius: 50%;
-  border: 1px solid white;
+	width: 3.3rem;
+	border-radius: 50%;
+	border: 1px solid white;
 }
 
 h1:hover {
-  cursor: pointer;
-  color: #00fff8;
+	cursor: pointer;
+	color: #00fff8;
 }
 
 .name span:hover {
-  cursor: pointer;
-  color: #00fff8;
+	cursor: pointer;
+	color: #00fff8;
 }
 
 .equilibrium:hover {
-  cursor: pointer;
-  filter: invert(38%) sepia(92%) saturate(426%) hue-rotate(140deg)
-    brightness(91%) contrast(93%);
+	cursor: pointer;
+	filter: invert(38%) sepia(92%) saturate(426%) hue-rotate(140deg)
+		brightness(91%) contrast(93%);
 }
 
 .hide {
-  display: none;
-  position: absolute;
-  top: 14em;
-  right: 14em;
+	display: none;
+	position: absolute;
+	top: 14em;
+	right: 14em;
 }
 
 .equilibrium:hover + .hide {
-  display: block;
+	display: block;
 }
 
 @media only screen and (min-width: 1200px) {
-  .paragraph {
-    margin-right: -1em;
-  }
+	.paragraph {
+		margin-right: -1em;
+	}
 }
