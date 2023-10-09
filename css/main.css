@@ -9,6 +9,9 @@ html {
 }
 
 body {
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
 	background-color: #0d192c;
 }
 
